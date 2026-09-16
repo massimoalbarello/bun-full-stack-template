@@ -1,6 +1,6 @@
 # Bun full-stack template
 
-[![Deploy to nibrun](https://img.shields.io/badge/Deploy%20to-nibrun-black)](https://app.nibrun.com/deploy?name=bun-full-stack-template&binary=https%3A%2F%2Fgithub.com%2Fmassimoalbarello%2Fbun-full-stack-template%2Freleases%2Fdownload%2Fnibrun-latest%2Fapp&port=3000&minimal)
+[![Deploy your own](.github/assets/deploy-your-own.svg)](https://app.nibrun.com/deploy?name=bun-full-stack-template&binary=https%3A%2F%2Fgithub.com%2Fmassimoalbarello%2Fbun-full-stack-template%2Freleases%2Fdownload%2Fnibrun-latest%2Fapp&port=3000&minimal)
 
 A working full-stack application and an engineering workflow for building the next one.
 Use GitHub’s **Use this template → Create a new repository**, then clone your new repository.
