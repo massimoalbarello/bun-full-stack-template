@@ -1,7 +1,5 @@
 # Bun full-stack template
 
-[![Deploy your own](.github/assets/deploy-your-own.svg)](https://app.nibrun.com/deploy?name=bun-full-stack-template&binary=https%3A%2F%2Fgithub.com%2Fmassimoalbarello%2Fbun-full-stack-template%2Freleases%2Fdownload%2Fnibrun-latest%2Fapp&port=3000&minimal)
-
 A working full-stack application and an engineering workflow for building the next one.
 Use GitHub’s **Use this template → Create a new repository**, then clone your new repository.
 Requires Bun 1.4.0 and Node 24 (for architecture and frontend lint tools).
@@ -110,13 +108,16 @@ backend dependency boundaries, tests, compiled Linux behavior, and the real brow
 
 ## Deploy to nibrun
 
-The button above creates a deployment from the `app` binary in the rolling `nibrun-latest`
+[![Deploy your own](.github/assets/deploy-your-own.svg)](https://app.nibrun.com/deploy?name=bun-full-stack-template&binary=https%3A%2F%2Fgithub.com%2Fmassimoalbarello%2Fbun-full-stack-template%2Freleases%2Fdownload%2Fnibrun-latest%2Fapp&port=3000&minimal)
+
+This example button creates a deployment from the `app` binary in the rolling `nibrun-latest`
 GitHub prerelease. After a push to `main`, the build workflow publishes it once the Linux binary
 and browser checks pass. Pull requests only build and test; publishing uses GitHub's built-in
 token and needs no nibrun credentials. The release notes and tag identify the source commit.
 
 When creating a repository from this template, change the button's `name` and URL-encoded
 `binary` URL to your app name and repository, keeping `/releases/download/nibrun-latest/app`.
+You can then move the button to the top of your README.
 Wait for the first successful `main` build to publish the asset before using the button.
 The binary URL must be publicly accessible; private repositories can use the CLI instead.
 
